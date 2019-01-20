@@ -4,10 +4,6 @@ spring:
     name: microservicecloud-config-client-dev
 server:
   port: 8082
-eureka:
-  client:
-    service-url:
-      defaultZone: woshinidaye-dev
 
 ----
 spring:
@@ -16,10 +12,6 @@ spring:
     name: microservicecloud-config-client-test
 server:
   port: 8083
-eureka:
-  client:
-    service-url:
-      defaultZone: woshinidaye-test
 
 ----
 spring:
@@ -28,7 +20,3 @@ spring:
     name: microservicecloud-config-client-test
 server:
   port: 8083
-eureka:
-  client:
-    service-url:
-      defaultZone: woshinidaye-uat
