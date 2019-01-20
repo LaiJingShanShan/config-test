@@ -1,22 +1,23 @@
-spring:
+spring: 
   profiles: dev
-  application:
+  application: 
     name: microservicecloud-config-client-dev
-server:
+server: 
   port: 8082
 
 ----
-spring:
+server:
+  port: 8083
+spring: 
   profiles: test
   application:
     name: microservicecloud-config-client-test
-server:
-  port: 8083
+
 
 ----
-spring:
+server: 
+  port: 8084
+spring: 
   profiles: uat
-  application:
+  application: 
     name: microservicecloud-config-client-uat
-server:
-  port: 8083
